@@ -15,10 +15,12 @@ const Home: NextPage = () => {
           </a>
         </Link>
 
-        <a href="https://nextjs.org/learn" className={styles.card}>
-          <h2>Learn &rarr;</h2>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
+        <Link href="/user">
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+        </Link>
 
         <Link href="/user/detail">
           <a className={styles.card}>
